@@ -1,0 +1,10 @@
+ language: node_js
+ node_js:
+ - "stable"
+ script: npm run build
+ 
+deploy:
+  provider: s3
+  access_key_id: "ewsCC6M6dLO/Fh6kllJInvkrOiX2r8v3TdlHgcRK"
+  secret_access_key: "https://230195792405.signin.aws.amazon.com/console"
+  bucket: "S3 Bucket"
